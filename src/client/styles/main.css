@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 12px Helvetica;
+}
+
+.container{
+  position: relative;
+  margin: 30px 15px;
+  padding: 50px 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+body{
+  padding: 0 10px;
+}
+
+.formcontainer{
+  max-width: 550px;
+  width: 100%;
+  border: 1px solid;
+  margin: 60px auto;
+  padding: 30px;
+  background: white;
+}
+
+.form{
+  width:100%;
+}
+
+.title{
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  font: 24px Helvatica;
+  font-weight: 700;
+  color: #ffca26;
+}
+
+.input{
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.input label{
+  width: 200px;
+  color: #757575;
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.input[type=text]{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.input[type=text]:hover{
+  cursor: crosshair;
+  background-color: #d5d5d5;
+}
+
+.outputdata{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.trip{
+  border: 1px solid black;
+  width: 30vw;
+}
+
+.trip:hover{
+  border: 2px solid #f5bd8a;
+}
+
+.nameofthecity{
+  font: 3em Helvetica;
+}
+
+.datetrip{
+  font: 2em Helvetica bold;
+}
+
+.dateResult{
+  font: 1.5em Helvetica bold;
+  font-weight: 700;
+}
+.pic img{
+  width: 30vw;
+}
+
+.nameoftrip{
+  font: 1.5em Helvetica;
+  color: white;
+  font-weight: 500;
+  background-color: #777;
+}
+
+.submitButton {
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  font: 15px Helvetica;
+  font-weight:bold;
+  padding:6px 24px;
+}
+.submitButton:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
+}
+
+#daterange{
+  width: 30%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width:430px){
+  .input{
+    flex-direction: column;
+    align-item: flex-start;
+  }
+  .input label{
+    margin-bottom: 2px;
+  }
+  .container{
+  position: relative;
+  margin: 30px 15px;
+  padding: 50px 15px;
+  display: flex;
+  flex-direction: column;
+  }
+  .outputdata{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin: 30px 15px;
+  padding: 50px 15px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

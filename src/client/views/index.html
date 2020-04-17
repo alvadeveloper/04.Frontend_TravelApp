@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Travel App</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<div class="container">
+	<div class="form">
+			<div class="title">
+		Please Enter your trip
+	</div>
+	<div class="input">
+		<label>Destination</label>
+		<input type="text" class="input "name="city" id="place">
+	</div>
+	<div class="input">
+		<label>Name This Trip</label>
+		<input type="text" class="input "name="nameoftrip" id="nameoftrip">
+	</div>
+	<div class="input">
+		<label>Select your Date</label>
+		<input type="text" name="daterange" id="daterange">
+	</div>
+	<div class="input">
+		<button onclick="Client.sendAndGetData(event)" class="submitButton">Submit</button>
+	</div>
+	</div>
+</div>
+<div class="outputdata">
+
+</div>
+<script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/serviceworker.js');
+                });
+            }
+        </script>
+</body>
+</html>
