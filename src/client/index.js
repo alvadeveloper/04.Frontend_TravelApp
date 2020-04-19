@@ -203,8 +203,6 @@ export function sendAndGetData(event){
     },5000);
 };
 
-export const 
-
 
 
 

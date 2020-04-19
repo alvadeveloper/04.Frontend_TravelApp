@@ -39,7 +39,7 @@ function updatedata(data){
 	alldata.push(data);
 }
 
-export function updatetest(data){
+exports.updatetest = (data)=>{
 	alldata.push(data);
 	return alldata;
 }
