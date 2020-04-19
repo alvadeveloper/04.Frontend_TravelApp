@@ -39,6 +39,11 @@ function updatedata(data){
 	alldata.push(data);
 }
 
+export function updatetest(data){
+	alldata.push(data);
+	return alldata;
+}
+
 let lat = '';
 let lng = '';
 
